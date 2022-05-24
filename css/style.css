@@ -6,3 +6,7 @@ a.active {
 #header {
   background-color: var(--c-primary);
 }
+
+#header a {
+  color: #fff;
+}
