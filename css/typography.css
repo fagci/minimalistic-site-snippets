@@ -83,3 +83,7 @@ h5 {
 a:not(:hover) {
   text-decoration: none;
 }
+
+blockquote {
+  border-left: 2px solid #888;
+}
