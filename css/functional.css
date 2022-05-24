@@ -1,0 +1,14 @@
+.text-left { text-align: left }
+.text-center { text-align: center }
+.text-right { text-align: right }
+
+.b { font-weight: bolder }
+.i { font-style: italic }
+
+.flex, .flex-wrap {
+  display: flex;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
