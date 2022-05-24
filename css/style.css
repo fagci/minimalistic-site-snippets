@@ -1,7 +1,8 @@
 a.active {
   font-weight: bolder;
+  color: var(--c-link);
 }
 
 #header {
-  background-color: hsl(180, 50%, 85%);
+  background-color: var(--c-primary);
 }
