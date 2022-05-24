@@ -79,3 +79,7 @@ h4 {
 h5 {
   font-size: 1em;
 }
+
+a:not(:hover) {
+  text-decoration: none;
+}
