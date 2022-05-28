@@ -1,4 +1,5 @@
 :root {
   --c-primary: hsl(230, 50%, 50%);
-  --c-link: hsl(230, 80%, 25%)
+  --c-link: hsl(230, 80%, 25%);
+  --c-border: #e0e0e0;
 }
