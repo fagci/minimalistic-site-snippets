@@ -15,9 +15,9 @@ a.active {
   position: sticky;
   top: 0;
   background: #fafafa;
-  gap: 16px;
+  gap: 0.375em;
   display: flex;
-  padding: 8px 3.5vmax;
+  padding: 16px 3.5vmax;
   flex-flow: column;
   float: right;
 }
