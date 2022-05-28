@@ -40,7 +40,7 @@ small {
 
 hr {
   border: none;
-  background-color: #e0e0e0;
+  background-color: var(--c-border);
   height: 1px;
   margin-left: 0;
   margin-right: 0;
@@ -86,4 +86,12 @@ a:not(:hover) {
 
 blockquote {
   border-left: 2px solid #888;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+td {
+  border-bottom: 1px solid var(--c-border);
 }
