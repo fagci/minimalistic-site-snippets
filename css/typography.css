@@ -20,8 +20,36 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
-ul {
-  padding: 0 0 0 0.875em;
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: var(--ff-condensed);
+  margin: 1.25em 0 0.25em;
+  line-height: 1.2;
+  max-width: 60ch;
+}
+
+h1 {
+  margin-top: 0;
+  font-size: 2.074em;
+}
+  
+h2 {
+  font-size: 1.728em;
+}
+  
+h3 {
+  font-size: 1.44em;
+}
+
+h4 {
+  font-size: 1.2em;
+}
+
+h5 {
+  font-size: 1em;
 }
 
 p,
@@ -33,6 +61,10 @@ hr {
   margin-top: 0.75em;
   margin-bottom: 0.75em;
   max-width: 66ch;
+}
+
+ul {
+  padding: 0 0 0 0.875em;
 }
 
 li {
@@ -52,41 +84,6 @@ hr {
   height: 1px;
   margin-left: 0;
   margin-right: 0;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5 {
-  font-family: var(--ff-condensed);
-  margin: 1.25em 0 0.25em;
-  line-height: 1.2;
-  max-width: 60ch;
-}
-
-h1 {
-  margin-top: 0;
-}
-
-h1 {
-  font-size: 2.074em;
-}
-  
-h2 {
-  font-size: 1.728em;
-}
-  
-h3 {
-  font-size: 1.44em;
-}
-
-h4 {
-  font-size: 1.2em;
-}
-
-h5 {
-  font-size: 1em;
 }
 
 a {
@@ -125,6 +122,6 @@ pre {
 }
 
 code, kbd, samp, pre {
-  font-feature-settings: "liga" 1;
   font-family: var(--ff-monospace);
+  font-feature-settings: "liga" 1;
 }
