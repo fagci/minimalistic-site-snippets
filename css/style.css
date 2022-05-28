@@ -1,4 +1,4 @@
-a.active {
+a.active, a:target {
   font-weight: bolder;
   color: var(--c-link);
 }
