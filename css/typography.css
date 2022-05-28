@@ -116,6 +116,10 @@ th:last-child, td:last-child {
   padding-right: 0;
 }
 
+pre {
+  overflow-x: auto;
+}
+
 code, kbd, samp, pre {
   font-feature-settings: "liga" 1;
   font-family: var(--ff-monospace);
