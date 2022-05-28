@@ -106,3 +106,10 @@ th:first-child, td:first-child {
 th:last-child, td:last-child {
   padding-right: 0;
 }
+
+code, kbd, samp, pre {
+  text-rendering: optimizeLegibility;
+  -webkit-font-feature-settings: "liga" 1;
+  font-feature-settings: "liga" 1;
+  font-family: monospace;
+}
