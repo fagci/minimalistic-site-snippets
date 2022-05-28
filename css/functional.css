@@ -12,3 +12,9 @@
 .flex-wrap {
   flex-wrap: wrap;
 }
+
+@media (max-width: 768px) {
+  .mobile-hide {
+    display: none;
+  }
+}
