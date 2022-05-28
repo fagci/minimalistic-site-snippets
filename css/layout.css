@@ -2,11 +2,6 @@ html, body {
   min-height: 100%;
 }
 
-body {
-  margin: 0;
-  padding: 0;
-}
-
 #header, #footer {
   padding: 16px 3.5vmax;
 }
@@ -29,4 +24,5 @@ main {
 
 img {
   max-width: 100%;
+  height: auto;
 }
