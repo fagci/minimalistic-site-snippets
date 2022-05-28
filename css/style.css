@@ -14,7 +14,7 @@ a.active {
 .toc:first-of-type {
   position: sticky;
   top: 0;
-  background: #f0f0f0;
+  background: #fafafa;
   gap: 16px;
   display: flex;
   padding: 8px 3.5vmax;
