@@ -58,7 +58,8 @@ ul,
 ol,
 table,
 small,
-hr {
+hr,
+form {
   margin-top: 0.75em;
   margin-bottom: 0.75em;
   max-width: 72ch;
