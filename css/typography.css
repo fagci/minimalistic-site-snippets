@@ -80,8 +80,7 @@ small {
 
 hr {
   border: none;
-  background-color: var(--c-border);
-  height: 1px;
+  border-bottom: 1px solid var(--c-border);
   margin-left: 0;
   margin-right: 0;
 }
