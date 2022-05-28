@@ -95,5 +95,14 @@ table {
 }
 
 th, td {
+  padding: 4px 8px;
   border-bottom: 1px solid var(--c-border);
+}
+
+th:first-child, td:first-child {
+  padding-left: 0;
+}
+
+th:last-child, td:last-child {
+  padding-right: 0;
 }
