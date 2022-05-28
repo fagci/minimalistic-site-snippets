@@ -23,7 +23,7 @@ window.addEventListener('DOMContentLoaded', function() {
       
         const link = document.createElement('a');
         link.innerText = el.dataset.toc || el.innerText;
-        link.classList.add('ym-toc__item');
+        link.classList.add('toc__item');
         link.href = '#' + el.id;
         toc.appendChild(link);
     }
