@@ -16,6 +16,8 @@ html {
 
 body {
   font: 1em/1.6 var(--ff-sans-serif);
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
 }
 
 ul {
@@ -115,7 +117,6 @@ th:last-child, td:last-child {
 }
 
 code, kbd, samp, pre {
-  text-rendering: optimizeLegibility;
   font-feature-settings: "liga" 1;
   font-family: var(--ff-monospace);
 }
