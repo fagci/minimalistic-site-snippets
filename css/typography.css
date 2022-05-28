@@ -57,6 +57,7 @@ h2,
 h3,
 h4,
 h5 {
+  font-family: var(--ff-condensed);
   margin: 1.25em 0 0.25em;
   line-height: 1.2;
   max-width: 60ch;
