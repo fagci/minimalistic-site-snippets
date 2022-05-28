@@ -10,7 +10,6 @@
 
 // TOC
 (function() {
-window.addEventListener('DOMContentLoaded', function() {
     const toc = document.querySelector('.toc');
     const h = document.querySelectorAll('h2');
     for (let i in h) {
@@ -28,5 +27,4 @@ window.addEventListener('DOMContentLoaded', function() {
         link.href = '#' + el.id;
         toc.appendChild(link);
     }
-})
 })();
