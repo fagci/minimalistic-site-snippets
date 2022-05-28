@@ -89,6 +89,10 @@ h5 {
   font-size: 1em;
 }
 
+a {
+  color: var(--c-link);
+}
+
 a:not(:hover) {
   text-decoration: none;
 }
