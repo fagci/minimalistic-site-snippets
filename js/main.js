@@ -7,7 +7,8 @@
     if(doc.URL.startsWith(links[i].href))
       links[i].classList.add('active');
 })();
-// toc
+
+// TOC
 (function() {
 window.addEventListener('DOMContentLoaded', function() {
     const toc = document.querySelector('.toc');
