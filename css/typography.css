@@ -65,7 +65,7 @@ form {
   max-width: 72ch;
 }
 
-ul {
+ul, ol {
   padding: 0 0 0 0.875em;
 }
 
