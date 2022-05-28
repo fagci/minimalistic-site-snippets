@@ -27,3 +27,34 @@ img {
   max-width: 100%;
   height: auto;
 }
+
+/* Forms */
+
+form {
+  padding: 24px;
+}
+
+input, select, textarea, button {
+  padding: 4px 8px;
+}
+
+form, input, select, textarea, button {
+  border-radius: 6px;
+  border: 1px solid var(--c-border);
+}
+
+button, [type="button"], [type="reset"], [type="submit"] {
+  border: none;
+  padding: 8px 24px;
+  cursor: pointer;
+}
+
+[type="submit"] {
+  color: #fff;
+  background-color: var(--c-primary);
+}
+
+input[disabled], button[disabled] {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
