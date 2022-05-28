@@ -9,7 +9,7 @@ html {
 }
 
 body {
-  font: 1em/1.6 sans-serif;
+  font: 1em/1.6 var(--ff-sans-serif);
 }
 
 ul {
@@ -110,5 +110,5 @@ th:last-child, td:last-child {
 code, kbd, samp, pre {
   text-rendering: optimizeLegibility;
   font-feature-settings: "liga" 1;
-  font-family: monospace;
+  font-family: var(--ff-monospace);
 }
