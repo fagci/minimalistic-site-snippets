@@ -14,3 +14,9 @@ body {
 main {
   padding: 3.5vmax;
 }
+
+.header-nav {
+  display: flex;
+  gap: 2vmax;
+  text-transform: uppercase;
+}
