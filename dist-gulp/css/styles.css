@@ -211,7 +211,7 @@ legend {
 .b { font-weight: bolder }
 .i { font-style: italic }
 
-.flex, .flex-wrap {
+.flex, .flex-wrap, .flex-between {
   display: flex;
 }
 
