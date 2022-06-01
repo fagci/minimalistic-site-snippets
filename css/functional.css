@@ -7,12 +7,16 @@
 .b { font-weight: bolder }
 .i { font-style: italic }
 
-.flex, .flex-wrap, .flex-between {
+.flex, .flex-wrap, .flex-between, .flex-ycenter {
   display: flex;
 }
 
 .flex-between {
   justify-content: space-between;
+}
+
+.flex-ycenter {
+  align-items: center;
 }
 
 .flex-wrap {
