@@ -223,6 +223,16 @@ legend {
   }
 }
 
+.smart-padding {
+  padding: 3% calc(((100% - 1260px) / 2));
+}
+
+@media (max-width: 1298px) {
+  .smart-padding {
+    padding: 3%;
+  }
+}
+
 a.active {
   font-weight: bolder;
 }
