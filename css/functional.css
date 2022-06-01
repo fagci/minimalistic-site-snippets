@@ -26,11 +26,13 @@
 }
 
 .smart-padding {
-  padding: 2% calc(((100% - 1260px) / 2));
+  padding-left: 2% calc(((100% - 1260px) / 2));
+  padding-right: 2% calc(((100% - 1260px) / 2));
 }
 
 @media (max-width: 1310px) {
   .smart-padding {
-    padding: 2%;
+    padding-left: 2%;
+    padding-right: 2%;
   }
 }
