@@ -4,16 +4,16 @@ html, body {
 }
 
 #header, #footer {
-  padding: 16px 3.5vmax;
+  padding: 16px 2vmax;
 }
 
 main {
-  padding: 3.5vmax;
+  padding: 2vmax;
 }
 
 .header-nav {
   display: flex;
-  gap: 2vmax;
+  gap: 1.8vmax;
   text-transform: uppercase;
 }
 
